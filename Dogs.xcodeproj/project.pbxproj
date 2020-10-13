@@ -9,21 +9,35 @@
 /* Begin PBXBuildFile section */
 		B65B5B692535CD5100552B62 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65B5B682535CD5100552B62 /* AppDelegate.swift */; };
 		B65B5B6B2535CD5100552B62 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65B5B6A2535CD5100552B62 /* SceneDelegate.swift */; };
-		B65B5B6D2535CD5100552B62 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65B5B6C2535CD5100552B62 /* ViewController.swift */; };
+		B65B5B6D2535CD5100552B62 /* DogCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65B5B6C2535CD5100552B62 /* DogCollectionViewController.swift */; };
 		B65B5B702535CD5100552B62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B65B5B6E2535CD5100552B62 /* Main.storyboard */; };
 		B65B5B722535CD5300552B62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B65B5B712535CD5300552B62 /* Assets.xcassets */; };
 		B65B5B752535CD5300552B62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B65B5B732535CD5300552B62 /* LaunchScreen.storyboard */; };
+		B65B5B7E2535CDA700552B62 /* Dog.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65B5B7D2535CDA700552B62 /* Dog.swift */; };
+		B65B5B812535CDCD00552B62 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65B5B802535CDCD00552B62 /* NetworkManager.swift */; };
+		B65B5B842535D55500552B62 /* DogCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65B5B832535D55500552B62 /* DogCell.swift */; };
+		B65B5B872535D5C700552B62 /* UIImage+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65B5B862535D5C700552B62 /* UIImage+Ext.swift */; };
+		B65B5B8E2535DB5300552B62 /* ConcurentOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65B5B8D2535DB5300552B62 /* ConcurentOperation.swift */; };
+		B65B5B912535DB8800552B62 /* FetchPhotoOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65B5B902535DB8800552B62 /* FetchPhotoOperation.swift */; };
+		B65B5B942535DC5900552B62 /* Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65B5B932535DC5900552B62 /* Cache.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B65B5B652535CD5100552B62 /* Dogs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dogs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B65B5B682535CD5100552B62 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B65B5B6A2535CD5100552B62 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B65B5B6C2535CD5100552B62 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B65B5B6C2535CD5100552B62 /* DogCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogCollectionViewController.swift; sourceTree = "<group>"; };
 		B65B5B6F2535CD5100552B62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B65B5B712535CD5300552B62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B65B5B742535CD5300552B62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B65B5B762535CD5300552B62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B65B5B7D2535CDA700552B62 /* Dog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dog.swift; sourceTree = "<group>"; };
+		B65B5B802535CDCD00552B62 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		B65B5B832535D55500552B62 /* DogCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogCell.swift; sourceTree = "<group>"; };
+		B65B5B862535D5C700552B62 /* UIImage+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Ext.swift"; sourceTree = "<group>"; };
+		B65B5B8D2535DB5300552B62 /* ConcurentOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcurentOperation.swift; sourceTree = "<group>"; };
+		B65B5B902535DB8800552B62 /* FetchPhotoOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchPhotoOperation.swift; sourceTree = "<group>"; };
+		B65B5B932535DC5900552B62 /* Cache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cache.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +72,14 @@
 			children = (
 				B65B5B682535CD5100552B62 /* AppDelegate.swift */,
 				B65B5B6A2535CD5100552B62 /* SceneDelegate.swift */,
-				B65B5B6C2535CD5100552B62 /* ViewController.swift */,
+				B65B5B6C2535CD5100552B62 /* DogCollectionViewController.swift */,
+				B65B5B862535D5C700552B62 /* UIImage+Ext.swift */,
+				B65B5B8D2535DB5300552B62 /* ConcurentOperation.swift */,
+				B65B5B932535DC5900552B62 /* Cache.swift */,
+				B65B5B902535DB8800552B62 /* FetchPhotoOperation.swift */,
+				B65B5B802535CDCD00552B62 /* NetworkManager.swift */,
+				B65B5B832535D55500552B62 /* DogCell.swift */,
+				B65B5B7D2535CDA700552B62 /* Dog.swift */,
 				B65B5B6E2535CD5100552B62 /* Main.storyboard */,
 				B65B5B712535CD5300552B62 /* Assets.xcassets */,
 				B65B5B732535CD5300552B62 /* LaunchScreen.storyboard */,
@@ -137,8 +158,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B65B5B6D2535CD5100552B62 /* ViewController.swift in Sources */,
+				B65B5B872535D5C700552B62 /* UIImage+Ext.swift in Sources */,
+				B65B5B6D2535CD5100552B62 /* DogCollectionViewController.swift in Sources */,
+				B65B5B912535DB8800552B62 /* FetchPhotoOperation.swift in Sources */,
 				B65B5B692535CD5100552B62 /* AppDelegate.swift in Sources */,
+				B65B5B842535D55500552B62 /* DogCell.swift in Sources */,
+				B65B5B812535CDCD00552B62 /* NetworkManager.swift in Sources */,
+				B65B5B942535DC5900552B62 /* Cache.swift in Sources */,
+				B65B5B8E2535DB5300552B62 /* ConcurentOperation.swift in Sources */,
+				B65B5B7E2535CDA700552B62 /* Dog.swift in Sources */,
 				B65B5B6B2535CD5100552B62 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
