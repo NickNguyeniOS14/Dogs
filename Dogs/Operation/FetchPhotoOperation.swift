@@ -34,7 +34,7 @@ final class FetchPhotoOperation: ConcurrentOperation {
                 NSLog("Error fetching data for \(self.dog): \(error)")
                 return
             }
-
+            
             self.imageData = data
         }
         task.resume()

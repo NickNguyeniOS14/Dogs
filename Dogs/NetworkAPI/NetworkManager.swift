@@ -17,7 +17,7 @@ class NetworkManager {
     func fetchDogs(completion: @escaping (Result<[Dog],Error>) -> Void) {
         let url = URL(string: baseURL)!
         URLSession.shared.dataTask(with: url) { (data, response, error) in
-           
+
             if let error = error {
                 print(error.localizedDescription)
             }

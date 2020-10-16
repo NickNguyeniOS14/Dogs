@@ -70,22 +70,94 @@
 		B65B5B672535CD5100552B62 /* Dogs */ = {
 			isa = PBXGroup;
 			children = (
-				B65B5B682535CD5100552B62 /* AppDelegate.swift */,
-				B65B5B6A2535CD5100552B62 /* SceneDelegate.swift */,
-				B65B5B6C2535CD5100552B62 /* DogCollectionViewController.swift */,
-				B65B5B862535D5C700552B62 /* UIImage+Ext.swift */,
-				B65B5B8D2535DB5300552B62 /* ConcurentOperation.swift */,
-				B65B5B932535DC5900552B62 /* Cache.swift */,
-				B65B5B902535DB8800552B62 /* FetchPhotoOperation.swift */,
-				B65B5B802535CDCD00552B62 /* NetworkManager.swift */,
-				B65B5B832535D55500552B62 /* DogCell.swift */,
-				B65B5B7D2535CDA700552B62 /* Dog.swift */,
-				B65B5B6E2535CD5100552B62 /* Main.storyboard */,
-				B65B5B712535CD5300552B62 /* Assets.xcassets */,
-				B65B5B732535CD5300552B62 /* LaunchScreen.storyboard */,
-				B65B5B762535CD5300552B62 /* Info.plist */,
+				B692F0E02539D250005A6A06 /* Application */,
+				B692F0E62539D271005A6A06 /* ViewControllers */,
+				B692F0E42539D268005A6A06 /* Extension */,
+				B692F0E22539D25D005A6A06 /* Operation */,
+				B692F0E82539D279005A6A06 /* Utilities */,
+				B692F0EE2539D28F005A6A06 /* NetworkAPI */,
+				B692F0EC2539D289005A6A06 /* View */,
+				B692F0EA2539D282005A6A06 /* Model */,
+				B692F0F02539D29F005A6A06 /* SupportingFile */,
 			);
 			path = Dogs;
+			sourceTree = "<group>";
+		};
+		B692F0E02539D250005A6A06 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				B65B5B682535CD5100552B62 /* AppDelegate.swift */,
+				B65B5B6A2535CD5100552B62 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		B692F0E22539D25D005A6A06 /* Operation */ = {
+			isa = PBXGroup;
+			children = (
+				B65B5B8D2535DB5300552B62 /* ConcurentOperation.swift */,
+				B65B5B902535DB8800552B62 /* FetchPhotoOperation.swift */,
+			);
+			path = Operation;
+			sourceTree = "<group>";
+		};
+		B692F0E42539D268005A6A06 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				B65B5B862535D5C700552B62 /* UIImage+Ext.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		B692F0E62539D271005A6A06 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B65B5B6C2535CD5100552B62 /* DogCollectionViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		B692F0E82539D279005A6A06 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				B65B5B932535DC5900552B62 /* Cache.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		B692F0EA2539D282005A6A06 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B65B5B7D2535CDA700552B62 /* Dog.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B692F0EC2539D289005A6A06 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B65B5B832535D55500552B62 /* DogCell.swift */,
+				B65B5B6E2535CD5100552B62 /* Main.storyboard */,
+				B65B5B732535CD5300552B62 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B692F0EE2539D28F005A6A06 /* NetworkAPI */ = {
+			isa = PBXGroup;
+			children = (
+				B65B5B802535CDCD00552B62 /* NetworkManager.swift */,
+			);
+			path = NetworkAPI;
+			sourceTree = "<group>";
+		};
+		B692F0F02539D29F005A6A06 /* SupportingFile */ = {
+			isa = PBXGroup;
+			children = (
+				B65B5B712535CD5300552B62 /* Assets.xcassets */,
+				B65B5B762535CD5300552B62 /* Info.plist */,
+			);
+			path = SupportingFile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -316,7 +388,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4939K9623X;
-				INFOPLIST_FILE = Dogs/Info.plist;
+				INFOPLIST_FILE = Dogs/SupportingFile/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -335,7 +407,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4939K9623X;
-				INFOPLIST_FILE = Dogs/Info.plist;
+				INFOPLIST_FILE = Dogs/SupportingFile/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

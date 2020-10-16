@@ -17,22 +17,22 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="hHc-tm-5Ou">
-                            <size key="itemSize" width="90" height="90"/>
-                            <size key="estimatedItemSize" width="128" height="128"/>
+                            <size key="itemSize" width="412" height="266"/>
+                            <size key="estimatedItemSize" width="412" height="266"/>
                             <size key="headerReferenceSize" width="0.0" height="0.0"/>
                             <size key="footerReferenceSize" width="0.0" height="0.0"/>
                             <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                         </collectionViewFlowLayout>
                         <cells>
                             <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell" id="pp6-dJ-4tg" customClass="DogCell" customModule="Dogs" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="0.0" width="120" height="120"/>
+                                <rect key="frame" x="1" y="0.0" width="412" height="266"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="JbZ-ey-WQU">
-                                    <rect key="frame" x="0.0" y="0.0" width="120" height="120"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="412" height="266"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="nNF-QL-wmg">
-                                            <rect key="frame" x="0.0" y="0.0" width="120" height="120"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="412" height="266"/>
                                         </imageView>
                                     </subviews>
                                     <constraints>
@@ -42,7 +42,7 @@
                                         <constraint firstAttribute="bottom" secondItem="nNF-QL-wmg" secondAttribute="bottom" id="xc9-My-YI5"/>
                                     </constraints>
                                 </collectionViewCellContentView>
-                                <size key="customSize" width="120" height="120"/>
+                                <size key="customSize" width="412" height="266"/>
                                 <connections>
                                     <outlet property="dogImageView" destination="nNF-QL-wmg" id="BKV-gS-2qR"/>
                                 </connections>

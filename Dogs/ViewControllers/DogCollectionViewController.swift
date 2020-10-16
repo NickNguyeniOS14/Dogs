@@ -39,15 +39,6 @@ class DogCollectionViewController: UICollectionViewController {
         return cell 
     }
 
-    func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAtIndexPath indexPath: NSIndexPath) -> CGSize {
-
-        let totalHeight: CGFloat = (self.view.frame.width / 3)
-        let totalWidth: CGFloat = (self.view.frame.width / 3)
-        
-        return CGSize(width: totalWidth, height: totalHeight)
-    }
-    
-
     // MARK:- Load Images
 
     private func loadImage(forCell cell: DogCell, forItemAt indexPath: IndexPath) {

@@ -12,7 +12,9 @@ class ConcurrentOperation: Operation {
     // MARK: Types
 
     enum State: String {
-        case isReady, isExecuting, isFinished
+        case isReady
+        case isExecuting
+        case isFinished
     }
 
     // MARK: Properties
